@@ -5,9 +5,9 @@ the new PC.
 
 Tech stack
 
-Ionic2
-Angular
-AngularFire2
-Firebase
+Ionic2,
+Angular,
+AngularFire2,
+Firebase,
 Native camera plugin
 
