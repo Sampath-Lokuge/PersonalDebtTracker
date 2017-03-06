@@ -1,6 +1,13 @@
-# Personal Debt Tracker
+# Personal Debt Tracker App
 
-Personal Debt Tracker Ionic2 App
-
-This app is not for log bank loans or stuff like that.Just to keep track of those $100 you borrowed to complete the money for
+This app is not for loging bank loans or stuff like that.Just to keep track of those $300 you borrowed to complete the money for
 the new PC.
+
+Tech stack
+
+Ionic2
+Angular
+AngularFire2
+Firebase
+Native camera plugin
+
