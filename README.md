@@ -3,7 +3,7 @@
 This app is not for loging bank loans or stuff like that.Just to keep track of those $300 you borrowed to complete the money for
 the new PC.
 
-##Tech stack
+##Tech Stack
 
 - Ionic2
 - Angular
@@ -18,4 +18,8 @@ the new PC.
 3. Email and Password login
 4. You can take a photo of your paid bill and upload it as a future reference
 5. You can create, modify and delete your bills as you wish 
+
+##Author
+
+- [@Sampath_Lokuge](https://twitter.com/Sampath_Lokuge) 
 
