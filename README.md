@@ -5,7 +5,7 @@ the new PC or else.
 
 ##Video
 
-[How to Operate Personal Debt Tracker](https://youtu.be/2Q4sTTSl42k) 
+[How to Operate Personal Debt Tracker?](https://youtu.be/2Q4sTTSl42k) 
 
 ##Tech Stack
 
