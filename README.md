@@ -3,7 +3,7 @@
 This app is not for loging bank loans or stuff like that.Just to keep track of those $300 you borrowed to complete the money for
 the new PC.
 
-<b>Tech stack</b>
+##Tech stack
 
 Ionic2,
 Angular,
@@ -11,7 +11,7 @@ AngularFire2,
 Firebase,
 Native camera plugin
 
-Features
+##Features
 
 1. You can track your personal debt details. i.e. Unpaid and paid once
 2. Anonymous login 
