@@ -3,6 +3,10 @@
 This app is not for logging bank loans or stuff like that.Just to keep track of those $300 you borrowed to complete the money for
 the new PC or else.
 
+##Video
+
+[How to Operate Personal Debt Tracker](https://youtu.be/2Q4sTTSl42k) 
+
 ##Tech Stack
 
 - Ionic2
