@@ -13,10 +13,10 @@ the new PC.
 
 ##Features
 
-1. You can track your personal debt details. i.e. Unpaid and paid once
+1. You can track your personal debt details. i.e. Unpaid and paid bills
 2. Anonymous login 
 3. Email and Password login
-4. You can take a photo of your paid bill and upload it as a future reference
+4. You can take a photo of your paid bill and upload it
 5. You can create, modify and delete your bills as you wish 
 
 ##Author
