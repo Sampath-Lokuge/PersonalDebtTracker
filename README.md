@@ -23,7 +23,5 @@ the new PC or else.
 
 - [@Sampath_Lokuge](https://twitter.com/Sampath_Lokuge) 
 
-##License
 
-Private project
 
