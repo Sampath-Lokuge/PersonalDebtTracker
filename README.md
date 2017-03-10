@@ -15,6 +15,7 @@ the new PC or else.
 
 - Ionic2
 - Angular
+- Sass
 - AngularFire2
 - Firebase
 - Native camera plugin
