@@ -11,7 +11,7 @@ the new PC or else.
 
 [How to Operate Personal Debt Tracker?](https://youtu.be/2Q4sTTSl42k) 
 
-#Tech Stack
+## Tech Stack
 
 - Ionic2
 - Angular
