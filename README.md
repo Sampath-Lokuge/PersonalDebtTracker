@@ -3,7 +3,7 @@
 This app is not for logging bank loans or stuff like that.Just to keep track of those $300 you borrowed to complete the money for
 the new PC or else.
 
-#Google Store
+## Google Store
 
 [Personal Debt Tracker](https://goo.gl/qjnJpz) 
 
