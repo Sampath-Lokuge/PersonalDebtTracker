@@ -3,15 +3,15 @@
 This app is not for logging bank loans or stuff like that.Just to keep track of those $300 you borrowed to complete the money for
 the new PC or else.
 
-##Google Store
+#Google Store
 
 [Personal Debt Tracker](https://goo.gl/qjnJpz) 
 
-##Video
+#Video
 
 [How to Operate Personal Debt Tracker?](https://youtu.be/2Q4sTTSl42k) 
 
-##Tech Stack
+#Tech Stack
 
 - Ionic2
 - Angular
@@ -20,7 +20,7 @@ the new PC or else.
 - Firebase
 - Native camera plugin
 
-##Features
+#Features
 
 1. You can track your personal debt details. i.e. Unpaid and paid bills
 2. Anonymous login 
@@ -28,7 +28,7 @@ the new PC or else.
 4. You can take a photo of your paid bill and upload it
 5. You can create, modify and delete your bills as you wish 
 
-##Author
+#Author
 
 - [@Sampath_Lokuge](https://twitter.com/Sampath_Lokuge) 
 
