@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>{{bill?.name}}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="showOptions(bill?.$key)"><ion-icon name="more"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img [src]="bill.picture || placeholderPicture" (click)="uploadPicture(bill?.$key)" />
+  <div class="margin-top-15 font-size-20" *ngIf="!bill.picture" (click)="uploadPicture(bill?.$key)"><strong>Upload a debt bill</strong>
+    <ion-icon name="cloud-upload"></ion-icon>
+  </div>
+  <ion-card class="margin-top-35">
+    <ion-card-header>
+      <strong>Debt Information</strong>
+    </ion-card-header>
+    <ion-list>
+      <ion-item>
+        <ion-icon color="secondary" name="information-circle" item-left></ion-icon>{{bill?.name}}
+      </ion-item>
+      <ion-item>
+        <ion-icon color="favorite" name="cash" item-left></ion-icon>{{bill?.amount}}
+      </ion-item>
+      <ion-item>
+        <ion-icon color="danger" name="person" item-left></ion-icon>{{bill?.borrowedFrom}}
+      </ion-item>
+      <ion-item>
+        <ion-icon color="secondary" name="calendar" item-left></ion-icon>
+        {{bill?.dueDate}}
+      </ion-item>
+      <ion-item *ngIf="bill?.paid == true">
+        <ion-icon color="favorite" name="checkmark" item-left></ion-icon>
+        This bill is paid.
+      </ion-item>
+      <ion-item *ngIf="bill?.paid == false">
+        <ion-icon color="danger" name="timer" item-left></ion-icon>You haven't paid this bill.
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>

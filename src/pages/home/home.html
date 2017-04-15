@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      My Bills
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="createBill()"><ion-icon name="add"></ion-icon></button>
+    </ion-buttons>
+    <ion-buttons *ngIf="!isAnonymous" end>
+      <button ion-button icon-only (click)="logOut()"><ion-icon name="log-out"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-label class="margin-left-12"><strong>UnPaid Bills</strong></ion-label>
+  <ion-card [class.hide]="havingUnPaidItems" color="info">
+    <ion-card-content>
+      <p>Your UnPaid Bills will be shown here...</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card *ngFor="let bill of billList" (click)="moreBillOptions(bill.$key)" [class.hide]="bill.paid == true" color="danger">
+    <ion-card-content>
+      <p>Name: <strong>{{bill.name}}</strong></p>
+      <p>Total: <strong>${{bill.amount}}</strong></p>
+      <p>Borrowed From: <strong>{{bill.borrowedFrom}}</strong></p>
+      <p>Pay before: <strong>{{bill.dueDate}}</strong></p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-label class="margin-left-12"><strong>Paid Bills</strong></ion-label>
+  <ion-card [class.hide]="havingPaidItems" color="info">
+    <ion-card-content>
+      <p>Your Paid Bills will be shown here...</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card *ngFor="let bill of billList" (click)="goToPaidBill(bill.$key)" [class.hide]="bill.paid == false" color="secondary">
+    <ion-card-content>
+      <p>Name: <strong>{{bill.name}}</strong></p>
+      <p>Total: <strong>${{bill.amount}}</strong></p>
+      <p>Borrowed From: <strong>{{bill.borrowedFrom}}</strong></p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
